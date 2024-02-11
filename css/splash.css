@@ -23,19 +23,3 @@ body {
   border-radius: 8px;
 }
 
-/* Animations */
-.c-loader {
-  animation: is-rotating 2s infinite;
-  border: 6px solid #ffffff;
-  border-radius: 50%;
-  border-top-color: #51d4db;
-  height: 90px;
-  width: 90px;
-  
-}
-
-@keyframes is-rotating {
-  to {
-    transform: rotate(1turn);
-  }
-}
