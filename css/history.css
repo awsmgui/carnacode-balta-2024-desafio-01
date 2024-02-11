@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+/* Body + DIV CONTAINER */
 body {
   font-family: "Inter", sans-serif;
 }
@@ -9,6 +10,7 @@ body {
   text-align: center;
 }
 
+/* Header */
 .header {
   padding: 20px;
   background-color: #ffffff;
@@ -19,6 +21,8 @@ body {
   height: auto;
 }
 
+
+/* Input + input text Decorations */
 input[type="text"] {
   width: 100%;
   padding: 10px;
@@ -39,6 +43,7 @@ input[type="text"] {
   width: 343px;
 }
 
+/* Cards */
 .card-header {
   display: flex;
   align-items: center;

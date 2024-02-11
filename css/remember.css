@@ -1,56 +1,77 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 /* Body + DIV CONTAINER */
 body {
-    font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
+  background-color: #2e1462;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 300px;
   margin: auto;
   text-align: center;
+  background-color: aliceblue;
+  border-radius: 8px;
 }
 
-/* Header */
+/* Header + logo */
 .header {
-  padding: 20px;
+  margin-top: 150px;
+  padding-top: 25px;
+}
+
+.header h4 {
+  text-align: center;
+  color: #666666;
+  margin: 10px;
+}
+
+.logo {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo img {
+  width: 70px;
+  border-radius: 8px;
 }
 
 /* Input + input text Decorations */
 .input {
-  height: 50px;
+  height: 45px;
   border: none;
   outline-width: thin;
 }
 
-.input-decoration{
-  border: #E8E8E8;
+.input-decoration {
+  border: #e8e8e8;
   border-radius: 8px;
-  border-color: #E8E8E8;
+  border-color: #e8e8e8;
   padding: 8px 16px;
-  background-color: #F6F6F6;
+  background-color: #f6f6f6;
   outline-color: #a8a8a8;
 }
 
-.text-decoration{
-  color: #BDBDBD;
-  width: 343px;
+.text-decoration {
+  color: #bdbdbd;
+  width: 250px;
 }
 
 /* CheckBox */
 .checkbox {
   gap: 8px;
-  height: 50px;
   display: flex;
   align-items: flex-end;
-  padding-bottom: 35px;
+  padding-bottom: 10px;
   padding-left: 15px;
 }
 
-.checkbox label{
+.checkbox label {
   text-align: left;
   color: #666666;
-  font-size: smaller; 
+  font-size: smaller;
 }
 
 /* Buttons */
@@ -68,12 +89,12 @@ body {
   border-style: none;
   background-color: rgba(69, 254, 254, 1);
   transition: 0.3s;
-  width: 350px;
+  width: 250px;
   font-size: small;
   font-weight: bolder;
 }
 
-.button-primary:hover{
+.button-primary:hover {
   background-color: rgb(195, 255, 255);
   cursor: pointer;
   color: rgb(0, 0, 0);
@@ -87,16 +108,12 @@ body {
   border-width: 4px;
   background-color: rgba(255, 255, 255, 1);
   transition: 0.3s;
-  width: 350px;
+  width: 250px;
   font-size: small;
   font-weight: bolder;
 }
 
-.button-secundary:hover{
-  border-color:rgb(195, 255, 255);
+.button-secundary:hover {
+  border-color: rgb(195, 255, 255);
   cursor: pointer;
 }
-
-
-
-
